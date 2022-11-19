@@ -1,0 +1,89 @@
+.page {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 98vh;
+    margin: 0;
+
+    background-color: #fffff0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+
+.page .layout-element {
+    background-color: #61606375;
+    color: #212123;
+    border: 2px dashed red;
+    border-radius: 10px;
+    margin: 4px;
+}
+
+.centered-vertically {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.logo-img {
+    border: 2px dashed violet;
+    float: left;
+    width: 200px;
+}
+
+.menu-img {
+    border: 2px dashed violet;
+    float: left;
+    width: 40px;
+}
+
+.logo-title {
+    border: 2px dashed violet;
+    float: left;
+    width: calc(100% - 200px - 50px - 20px);
+
+    font-size: 3em;
+    text-shadow: 8px 8px 16px #463225;
+}
+
+.logo-img-svg {
+    height: 96px;
+    color: #a0583c;
+    filter: invert(41%) sepia(34%) saturate(888%) hue-rotate(331deg) brightness(87%) contrast(86%);
+    border: 1px dashed blue;
+
+    display: block;
+    margin: 0 auto;
+}
+
+.page .header {
+    height: 100px;
+}
+
+.page .nav {
+    height: 50px;
+}
+
+.article-aside-wriper {
+    height: calc(100% - 50px - 50px - 100px - 10px - 10px - 10px - 10px - 20px);
+}
+
+.page .article-aside-wriper .article-section-wriper {
+    float: left;
+    width: calc(75% - 25px);
+    height: calc(100% - 10px);
+}
+
+.page .article-aside-wriper .aside {
+    float: right;
+    width: calc(25%);
+    height: calc(100% - 10px);
+}
+
+.page .menu-content-footer-wrapper .content-footer-wrapper .content {
+    overflow-y: auto;
+    height: calc(100% - 40px - 1px - 1px - 1px - 1px);
+}
+
+.page .footer {
+    height: 100px;
+
+}
