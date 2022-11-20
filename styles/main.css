@@ -1,20 +1,36 @@
 .page {
     box-sizing: border-box;
     width: 100vw;
-    height: 98vh;
+    height: 100vh;
     margin: 0;
 
-    background-color: #fffff0;
+    background-color: #212123;
     font-size: 16px;
     font-family: "Lato", sans-serif;
+
+}
+
+.bg-video {
+    object-fit: cover; 
+    background-size: cover; 
+    opacity: 1; 
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    display: block;
 }
 
 .page .layout-element {
     background-color: #61606375;
-    color: #212123;
-    border: 2px dashed red;
-    border-radius: 10px;
-    margin: 4px;
+    color: #fffff0;
+    /*color: #212123;*/
+    border: 1px dashed rgba(255, 0, 0, 0.5);
+    border-radius: 2px;
+    margin: 2px;
+
+    position: relative;
 }
 
 .centered-vertically {
@@ -24,19 +40,19 @@
 }
 
 .logo-img {
-    border: 2px dashed violet;
+    border: 1px dashed violet;
     float: left;
     width: 200px;
 }
 
 .menu-img {
-    border: 2px dashed violet;
+    border: 1px dashed violet;
     float: left;
     width: 40px;
 }
 
 .logo-title {
-    border: 2px dashed violet;
+    border: 1px dashed violet;
     float: left;
     width: calc(100% - 200px - 50px - 20px);
 
@@ -63,12 +79,12 @@
 }
 
 .article-aside-wriper {
-    height: calc(100% - 50px - 50px - 100px - 10px - 10px - 10px - 10px - 20px);
+    height: calc(100% - 50px - 50px - 100px - 10px - 10px - 10px - 10px);
 }
 
 .page .article-aside-wriper .article-section-wriper {
     float: left;
-    width: calc(75% - 25px);
+    width: calc(75% - 15px);
     height: calc(100% - 10px);
 }
 
